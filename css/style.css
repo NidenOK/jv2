@@ -1,0 +1,83 @@
+#principal
+{
+    background: linear-gradient(rgb(32, 21, 106), rgba(9, 32, 24, 0.667));
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.caja
+{
+    width: 300px;
+    height: 650px;
+    background: linear-gradient( rgba(80, 56, 56, 0.388), rgb(20, 22, 21));
+    position: relative;
+    margin: 15px;
+    
+}
+.cajax
+{
+    display: flex;
+}
+.contenido
+{
+    width: 250px;
+    height: 150px;
+    background: linear-gradient(rgb(52, 2, 96), rgb(203, 131, 15));
+
+    margin: 10px;
+}
+.segundo
+{
+    width: 280px;
+    height: 80px;
+    background: linear-gradient(to right, rgba(76, 12, 86, 0.867), rgb(3, 10, 84));
+    margin: 10px;
+}
+.seg
+{
+    height: 75px;
+    width: 280px;
+    background: linear-gradient(to right, rgba(132, 41, 146, 0.867), rgb(176, 20, 46));
+    margin: 10px;
+}
+.ter
+{
+  display: flex;
+}
+.cuadrado
+{
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(to bottom right, rgb(10, 10, 70), rgb(182, 189, 229));
+    margin: 10px;
+}
+body:after {
+    content: "Jorge Luis Mamani Sosa"; 
+    font-size: 7em;  
+    color: rgba(7, 4, 29, 0.381);
+    z-index: 99;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+      
+    -webkit-pointer-events: none;
+    -moz-pointer-events: none;
+    -ms-pointer-events: none;
+    -o-pointer-events: none;
+    pointer-events: none;
+  
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+  }
+  
